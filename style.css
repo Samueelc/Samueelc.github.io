@@ -1,19 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.imagem img{
-    width: 20%;
-    flex: 1;
-    height: 40%;
-    position: absolute;
-    top: 0;
-    right: 1%;
+*{
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
+    height: 100vh;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.Unicentro {
+    color: rgba(255, 255, 0, 0.733);
+    text-decoration: none;
+}
+
+.Campo {
+    color: rgba(17, 0, 255, 0.733);
+    text-decoration: none;
+}
+
+.Linkedin {
+    border-radius: 5px;
+    background-color: #0511F2;
+    padding: 7px;
+    text-decoration: none;
+    transition: all 400ms;
+}
+
+.Linkedin:hover {
+    box-shadow: rgba(255, 254, 254, 0.548) 2px 2px 2px;
+}
+
+
+.imagem img {
+    height: 300px;
+    margin: 30px;
+    border-radius: 5px;
+    border: solid 2px #010440;
+    box-shadow: #0511f244 -6px -6px 4px, #5327f267 6px 6px 4px;
+    transition: all 2000ms;
+}
+
+h1 {
+    color: #DDD;
+    margin-bottom: 20px;
+    font-size: 37pt;
 }
