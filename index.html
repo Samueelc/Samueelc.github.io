@@ -2,29 +2,49 @@
 <html lang="pt-br">
 
 <head>
+        <title>Samuel</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Samuel</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+
 </head>
 
-<body>
-    
-    <div class="info">
-        <h1>Samuel Caldas</h1>
-        <p>Graduando em Engenharia de Produção pelo <a class="Campo" href="https://www.camporeal.edu.br/cursos/engenharia-de-producao/">Centro Universitário Campo Real</a> <br> Graduando em Matemática
-            Aplicada & Computacional pela <a class="Unicentro" href="https://www3.unicentro.br/cursos/matematica-aplicada-e-computacional/"
-            target="_blank"> Universidade Estadual do Centro Oeste </a></br> <br>Contato: sa_caldas@hotmail.com </br>
-        </p>
-        
-        <a class="Linkedin" href="http://linkedin.com/in/samuel-caldas-67b805142 ">Linkedin</a>  
-    </div>
+<body> 
 
-    <div class="imagem">
-        <img src="me.jpg" alt="foto" />
-    </div>
+    <div class="overlay unico"></div>
+    
+    <main>
+        <div class="imagem">
+            <img src="public/me.jpg" alt="foto" />
+        </div>
+        
+        <div class="info">
+            <h1>Samuel Caldas</h1>
+            <p>Graduando em Engenharia de Produção pelo <a class="Campo" href="https://www.camporeal.edu.br/cursos/engenharia-de-producao/">Centro Universitário Campo Real</a> <br> Graduando em Matemática
+                Aplicada & Computacional pela <a class="Unicentro" href="https://www3.unicentro.br/cursos/matematica-aplicada-e-computacional/"
+                target="_blank"> Universidade Estadual do Centro Oeste </a></br> <br>Contato: sa_caldas@hotmail.com </br>
+            </p>
+            
+            <div class="botoes">
+                <a targel="_blank" class="Linkedin" href="http://linkedin.com/in/samuel-caldas-67b805142 "><i class="fab fa-linkedin"></i> Linkedin</a> 
+                <a targel="_blank" class="Github" href="http://github.com/samueelc"><i class="fab fa-github-square"></i> Github</a>  
+            </div>
+        
+        </div>
+</main>
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    
+    <!-- MAIN -->
+    <script src="main.js"></script>
+    
 </body>
 
 </html>
