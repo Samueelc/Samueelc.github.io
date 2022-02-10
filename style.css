@@ -29,7 +29,7 @@ main {
 }
 
 .Campo {
-    color: rgba(17, 0, 255, 0.733);
+    color: rgba(65, 68, 231, 0.863);
     text-decoration: none;
 }
 
@@ -62,8 +62,8 @@ main {
 .imagem img {
     height: 300px;
     margin-right: 50px;
-    border-radius: 5px;
-    border: solid 3px #010440;
+    border-radius: 50%;
+    border: solid 3px #000000;
     transition: all 2000ms;
 }
 
