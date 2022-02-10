@@ -62,7 +62,7 @@ main {
 .imagem img {
     height: 300px;
     margin-right: 50px;
-    border-radius: 50%;
+    border-radius: 60%;
     border: solid 3px #000000;
     transition: all 2000ms;
 }
@@ -90,7 +90,7 @@ h1 {
     margin-bottom: 20px;
     font-size: 37pt;
     text-align: center;
-    border-bottom: #0511F2 solid 4px;
+    border-bottom: #0d138a solid 4px;
 }
 
 .overlay {
