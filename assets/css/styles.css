@@ -673,8 +673,13 @@ img{
 
 
 /*==================== CONTACT ME ====================*/
-.contact__container{
+/* .contact__container{
     row-gap: 3rem;
+} */
+
+.contact__me{
+    display: grid;
+    justify-items: center;
 }
 
 .contact__information{
